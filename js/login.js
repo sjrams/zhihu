@@ -37,6 +37,7 @@ $(document).ready(function(){
 				  $("#prddnull").animate({right: "8%",opacity:"1",},500);
 			  }
 		  }
+		  return false;
 	  });
 	  $("#name").focus(function(){
 		  $("#namenull").animate({right: "0",opacity:"0",},500);
